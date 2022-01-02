@@ -13,6 +13,7 @@ def calculation(left_operland, right_operland, operator):
 
 root=Tk()
 
+# main entry taking input and outputting results
 main_entry= Entry(root, width=70, bg="white", fg="black")
 main_entry.grid(row=0, column=0, columnspan=4)
 
